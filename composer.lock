@@ -4,8 +4,93 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "85d27f7245b8cb74cdabe850943e314d",
+    "content-hash": "91f55a968b2531d58cfafce4ab5836d6",
     "packages": [
+        {
+            "name": "algolia/algoliasearch-client-php",
+            "version": "1.25.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/algolia/algoliasearch-client-php.git",
+                "reference": "805021ea52630756d2da01d482309a2fdc47d3c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/algolia/algoliasearch-client-php/zipball/805021ea52630756d2da01d482309a2fdc47d3c0",
+                "reference": "805021ea52630756d2da01d482309a2fdc47d3c0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "AlgoliaSearch": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Algolia Team",
+                    "email": "contact@algolia.com"
+                },
+                {
+                    "name": "Ryan T. Catlin",
+                    "email": "ryan.catlin@gmail.com"
+                },
+                {
+                    "name": "Jonathan H. Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Algolia Search API Client for PHP",
+            "homepage": "https://github.com/algolia/algoliasearch-client-php",
+            "time": "2018-03-02T13:24:10+00:00"
+        },
+        {
+            "name": "algolia/algoliasearch-magento-2",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/algolia/algoliasearch-magento-2.git",
+                "reference": "2e367f6746a29a8d2a2e440a27cfd05fd9e88287"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/algolia/algoliasearch-magento-2/zipball/2e367f6746a29a8d2a2e440a27cfd05fd9e88287",
+                "reference": "2e367f6746a29a8d2a2e440a27cfd05fd9e88287",
+                "shasum": ""
+            },
+            "require": {
+                "algolia/algoliasearch-client-php": ">=1.10.2 <2.0",
+                "magento/framework": "~100.0|~101.0",
+                "php": "~5.5.0|~5.6.0|~7.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Algolia\\AlgoliaSearch\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Algolia Search integration for Magento 2",
+            "time": "2018-02-27T11:56:18+00:00"
+        },
         {
             "name": "braintree/braintree_php",
             "version": "3.27.0",
@@ -607,11 +692,6 @@
         {
             "name": "magento/composer",
             "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magento/composer.git",
-                "reference": "130753af2b755f1967e253deb661225942bb302c"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/magento/composer/zipball/130753af2b755f1967e253deb661225942bb302c",
@@ -843,6 +923,138 @@
                 "psr-3"
             ],
             "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "ce5be709d59b32dd8a88c80259028759991a4206"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ce5be709d59b32dd8a88c80259028759991a4206",
+                "reference": "ce5be709d59b32dd8a88c80259028759991a4206",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "bin/php-parse"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "time": "2016-02-28T19:48:28+00:00"
+        },
+        {
+            "name": "owebia/magento2-module-advanced-setting-core",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/owebia/magento2-module-advanced-setting-core.git",
+                "reference": "4579239b9a53ea49f98104b29de07d22781d6dde"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/owebia/magento2-module-advanced-setting-core/zipball/4579239b9a53ea49f98104b29de07d22781d6dde",
+                "reference": "4579239b9a53ea49f98104b29de07d22781d6dde",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "^100.0|^101.0",
+                "magento/magento-composer-installer": "^0.1.11",
+                "magento/module-backend": "^100.0",
+                "magento/module-catalog": "^100.0|^101.0|^102.0",
+                "magento/module-catalog-inventory": "^100.0",
+                "magento/module-checkout": "^100.0",
+                "magento/module-config": "^100.0|^101.0",
+                "magento/module-customer": "^100.0|^101.0",
+                "magento/module-eav": "^100.0|^101.0",
+                "magento/module-quote": "^100.0|^101.0",
+                "magento/module-store": "^100.0",
+                "magento/module-variable": "^100.0",
+                "nikic/php-parser": "2.0.*",
+                "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Owebia\\AdvancedSettingCore\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A",
+            "time": "2017-12-28T11:25:08+00:00"
+        },
+        {
+            "name": "owebia/magento2-module-advanced-shipping-setting",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/owebia/magento2-module-advanced-shipping-setting.git",
+                "reference": "241e70cac1770e5a1cc2b198c80c814db6d06fab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/owebia/magento2-module-advanced-shipping-setting/zipball/241e70cac1770e5a1cc2b198c80c814db6d06fab",
+                "reference": "241e70cac1770e5a1cc2b198c80c814db6d06fab",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento-composer-installer": "^0.1.11",
+                "owebia/magento2-module-advanced-setting-core": "^2.1.0",
+                "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Owebia\\AdvancedShippingSetting\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A",
+            "time": "2017-12-28T13:40:35+00:00"
         },
         {
             "name": "oyejorge/less.php",

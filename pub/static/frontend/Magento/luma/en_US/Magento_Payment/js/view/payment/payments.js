@@ -1,0 +1,1 @@
+/var/www/html/magento2/app/code/Magento/Payment/view/frontend/web/js/view/payment/payments.js
