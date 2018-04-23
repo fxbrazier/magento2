@@ -1,0 +1,49 @@
+[
+  {
+    "id":"1",
+    "name":"Chipotle Minneapolis",
+    "lat":"44.947464",
+    "lng":"-93.320826",
+    "address":"3040 Excelsior Blvd",
+    "address2":"","city":"Minneapolis",
+    "state":"MN",
+    "postal":"55416",
+    "phone":"612-922-6662",
+    "web":"http:\/\/www.chipotle.com",
+    "hours1":"Mon-Sun 11am-10pm",
+    "hours2":"",
+    "hours3":""
+  },
+  {
+    "id":"2",
+    "name":"Chipotle St. Louis Park",
+    "lat":"44.930810",
+    "lng":"-93.347877",
+    "address":"5480 Excelsior Blvd.",
+    "address2":"",
+    "city":"St. Louis Park",
+    "state":"MN",
+    "postal":"55416",
+    "phone":"952-922-1970",
+    "web":"http:\/\/www.chipotle.com",
+    "hours1":"Mon-Sun 11am-10pm",
+    "hours2":"",
+    "hours3":""
+  },
+  {
+    "id":"3",
+    "name":"Chipotle Minneapolis",
+    "lat":"44.9553438",
+    "lng":"-93.29719699999998",
+    "address":"2600 Hennepin Ave.",
+    "address2":"",
+    "city":"Minneapolis",
+    "state":"MN",
+    "postal":"55404",
+    "phone":"612-377-6035",
+    "web":"http:\/\/www.chipotle.com",
+    "hours1":"Mon-Sun 11am-10pm",
+    "hours2":"",
+    "hours3":""
+  }
+]
